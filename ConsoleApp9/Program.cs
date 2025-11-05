@@ -1,3 +1,21 @@
+int[] x = { 1, 3, 8, 15, 22, 29, 35, 40, 45, 50 };
+Console.WriteLine("the average is ");
+int z = 0;
+for (int y = 0; y < x.Length; y++)
+{
+  z= x[y]+z;
+}
+
+double i = z / x.Length;
+Console.WriteLine(i);
+Console.WriteLine("the numbers greater than the average are ");
+for (int n = 0; n < x.Length; n++)
+{
+    if (x[n] > i)
+    {
+        Console.WriteLine(x[n]);
+    }
+}
 ﻿
 
 int[] x = { 1, 3, 8, 15, 22, 29, 35, 40, 45, 50 };
